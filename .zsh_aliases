@@ -1,0 +1,14 @@
+function sbtee {
+  if [ "$1" ]; then
+    sbt "$1"|tee -a ~/.sbt_usage;
+  else
+    sbt|tee -a ~/.sbt_usage;
+  fi
+}
+
+alias sbt='sbtee'
+alias gh='hophop gh'
+alias sqlplus='rlwrap sqlplus'
+alias git=hub
+alias cat=ccat
+alias emacsCleanBackups='find . -name "*~" | xargs rm'
