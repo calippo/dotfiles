@@ -10,7 +10,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'itchyny/lightline.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'airblade/vim-gitgutter'
+" Plugin 'airblade/vim-gitgutter'
 Plugin 'majutsushi/tagbar'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'tpope/vim-speeddating'
@@ -18,10 +18,11 @@ Plugin 'tpope/vim-speeddating'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'abaldwin88/roamer.vim'
 
 " languages
 Plugin 'derekwyatt/vim-scala'
-Plugin 'ensime/ensime-vim'
+" Plugin 'ensime/ensime-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
