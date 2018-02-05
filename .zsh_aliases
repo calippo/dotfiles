@@ -1,14 +1,12 @@
-function sbtee {
-  if [ "$1" ]; then
-    sbt "$1"|tee -a ~/.sbt_usage;
-  else
-    sbt|tee -a ~/.sbt_usage;
-  fi
-}
-
-alias sbt='sbtee'
 alias gh='hophop gh'
 alias sqlplus='rlwrap sqlplus'
 alias git=hub
 alias cat=ccat
 alias emacsCleanBackups='find . -name "*~" | xargs rm'
+alias config='/usr/bin/git --git-dir=/Users/cale/.cfg/ --work-tree=/Users/cale'
+alias mkdir="mkdir -p"
+alias ec="emacsclient -t"
+alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias sbt='f() { sbt "$@" |tee -a ~/.sbt_usage.2; };f'
+# alias vim=nvim
+alias unmount='diskutil unmount'
