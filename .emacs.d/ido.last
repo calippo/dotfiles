@@ -1,0 +1,396 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/cale/Work/banksealer/services/maintenanceBobafett/src/test/" . "scala/")
+ ("/Users/cale/Work/banksealer/services/maintenanceBobafett/src/main/" . "scala/")
+ ("/Users/cale/Work/banksealer/services/maintenanceBobafett/src/" . "test/")
+ ("/Users/cale/Work/banksealer/services/maintenanceBobafett/" . "src/")
+ ("/Users/cale/Work/banksealer/" . "services/")
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/test/" . "scala/")
+ ("/Users/cale/Work/banksealer/services/ubiDriver/src/main/scala/" . "schema/")
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/main/scala/" . "controllers/")
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/main/" . "scala/")
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/" . "main/")
+ ("/Users/cale/Work/banksealer/services/bobafettApi/" . "src/")
+ ("/Users/cale/Work/banksealer/services/ubiDriver/src/main/" . "scala/")
+ ("/Users/cale/Work/banksealer/services/ubiDriver/src/" . "main/")
+ ("/Users/cale/Work/banksealer/services/ubiDriver/" . "src/")
+ ("/Users/cale/Work/banksealer/services/" . "bobafettApi/")
+ ("/Users/cale/Work/aliniq/service-panel/app/" . "models/")
+ ("/Users/cale/Work/aliniq/service-panel/" . "app/")
+ ("/Users/cale/Work/wiro/clientAkkaHttp/src/main/" . "scala/")
+ ("/Users/cale/Work/wiro/clientAkkaHttp/src/" . "main/")
+ ("/Users/cale/Work/wiro/clientAkkaHttp/" . "src/")
+ ("/Users/cale/Work/wiro/serverAkkaHttpMacros/src/main/" . "scala/")
+ ("/Users/cale/Work/wiro/serverAkkaHttpMacros/src/" . "main/")
+ ("/Users/cale/Work/wiro/serverAkkaHttpMacros/" . "src/")
+ ("/Users/cale/Work/grpco/target/scala-2.10/src_managed/main/com/example/protos/" . "hello/")
+ ("/Users/cale/Work/grpco/target/scala-2.10/src_managed/main/com/example/" . "protos/")
+ ("/Users/cale/Work/grpco/target/scala-2.10/src_managed/main/com/" . "example/")
+ ("/Users/cale/Work/grpco/target/scala-2.10/src_managed/main/" . "com/")
+ ("/Users/cale/Work/grpco/target/scala-2.10/src_managed/" . "main/")
+ ("/Users/cale/Work/grpco/target/scala-2.10/" . "src_managed/")
+ ("/Users/cale/Work/grpco/target/" . "scala-2.10/")
+ ("/Users/cale/Work/grpco/" . "target/")
+ ("/Users/cale/Work/grpco/src/main/" . "scala/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/routers/" . "icq/")
+ ("/Users/cale/Work/reedom/" . "bot/")
+ ("/Users/cale/Work/java-time-circe-codecs/javaTimeCirceCodecs/src/main/" . "scala/")
+ ("/Users/cale/Work/java-time-circe-codecs/javaTimeCirceCodecs/src/" . "main/")
+ ("/Users/cale/Work/java-time-circe-codecs/javaTimeCirceCodecs/" . "src/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/src/main/scala/data/bsq/" . "tables/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/src/main/scala/data/" . "bsq/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/main/scala/operational-dashboard/models/" . "icq/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/main/scala/operational-dashboard/controllers/" . "bsq/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/controllers/" . "bsq/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/src/main/scala/models/icq/" . "enum/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/models/icq/" . "api/")
+ ("/Users/cale/Work/banksealer-frontend/api/src/main/" . "resources/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/qiaShared/src/main/" . "scala/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/qiaShared/src/" . "main/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/qiaShared/" . "src/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/data/" . "bsq/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/test/scala/" . "operational-dashboard/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/test/" . "scala/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/" . "src/")
+ ("/Users/cale/Work/alinity-pro/qia/" . "backend/")
+ ("/Users/cale/Work/alinity-pro/" . "qia/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/main/scala/operational-dashboard/data/" . "bsq/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/main/scala/operational-dashboard/" . "models/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/main/scala/" . "operational-dashboard/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/main/" . "scala/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/" . "main/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/" . "src/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/test/scala/" . "operational-dashboard/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/test/" . "scala/")
+ ("/Users/cale/Work/wiro/clientAkkaRpc/src/main/" . "scala/")
+ ("/Users/cale/Work/wiro/serverRpc/src/main/" . "scala/")
+ ("/Users/cale/Work/wiro/serverRpc/src/" . "main/")
+ ("/Users/cale/Work/wiro/serverRpc/" . "src/")
+ ("/Users/cale/Work/wiro/examples/src/main/" . "scala/")
+ ("/Users/cale/Work/wiro/examples/src/" . "main/")
+ ("/Users/cale/Work/wiro/examples/" . "src/")
+ ("/Users/cale/Work/wiro/macros/src/main/" . "scala/")
+ ("/Users/cale/Work/wiro/macros/src/" . "main/")
+ ("/Users/cale/Work/wiro/macros/" . "src/")
+ ("/Users/cale/Work/wiro/core/src/main/" . "scala/")
+ ("/Users/cale/Work/wiro/core/src/" . "main/")
+ ("/Users/cale/Work/wiro/core/" . "src/")
+ ("/Users/cale/Work/wiro/" . "clientAkkaHttp/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/src/main/scala/models/" . "icq/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/models/" . "icq/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/" . "models/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/" . "operational-dashboard/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/" . "scala/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/" . "main/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/src/" . "main/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/" . "src/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/" . "operationalDashboardShared/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/src/main/scala/" . "models/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/src/main/" . "scala/")
+ ("/Users/cale/Work/banksealer-frontend/api/src/test/" . "scala/")
+ ("/Users/cale/Work/banksealer-frontend/" . "api/")
+ ("/Users/cale/Work/banksealer-frontend/api/src/main/scala/" . "data/")
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/models/bsq/" . "api/")
+ ("/Users/cale/Work/banksealer-frontend/api/src/" . "test/")
+ ("/Users/cale/Work/banksealer-frontend/api/" . "src/")
+ ("/Users/cale/Fun/sorting/src/main/" . "scala/")
+ ("/Users/cale/Fun/sorting/" . "src/")
+ ("/Users/cale/Fun/sorting/src/test/" . "scala/")
+ ("/Users/cale/Fun/sorting/src/" . "main/")
+ ("/Users/cale/Work/loggo/loggoTinylog/src/main/" . "scala/")
+ ("/Users/cale/Work/loggo/loggoTinylog/src/" . "main/")
+ ("/Users/cale/Work/loggo/loggoTinylog/" . "src/")
+ ("/Users/cale/Work/loggo/loggoLogback/src/main/" . "resources/")
+ ("/Users/cale/Work/loggo/loggoLogback/src/" . "main/")
+ ("/Users/cale/Work/loggo/loggoLogback/" . "src/")
+ ("/Users/cale/Work/" . "wiro/")
+ ("/Users/cale/Work/loggo/loggoScalog/src/main/" . "scala/")
+ ("/Users/cale/Work/loggo/loggoScalog/src/" . "main/")
+ ("/Users/cale/Work/loggo/loggoScalog/" . "src/")
+ ("/Users/cale/Work/eff-api/src/main/" . "scala/")
+ ("/Users/cale/Work/eff-api/src/" . "main/")
+ ("/Users/cale/Work/loggo/loggo4j2/src/main/" . "resources/")
+ ("/Users/cale/Work/loggo/loggo4j2/src/" . "main/")
+ ("/Users/cale/Work/loggo/loggo4j2/" . "src/")
+ ("/Users/cale/Work/loggo/" . "loggo4j2/")
+ ("/Users/cale/Work/wiro/serverAkkaHttp/src/test/" . "scala/")
+ ("/Users/cale/Work/wiro/serverAkkaHttp/" . "src/")
+ ("/Users/cale/Work/wiro/serverAkkaHttp/src/main/" . "scala/")
+ ("/Users/cale/Work/wiro/serverAkkaHttp/src/" . "main/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/cale/Work/banksealer/services/bobafettApi/src/main/scala/controllers/"
+ "/Users/cale/Work/banksealer/services/bobafettApi/src/main/scala/"
+ "/Users/cale/Work/banksealer/services/maintenanceBobafett/src/test/scala/"
+ "/Users/cale/Work/banksealer/services/bobafettApi/src/main/scala/schema/"
+ "/Users/cale/Work/cats/core/src/main/scala/cats/"
+ "/Users/cale/Work/banksealer/services/ubiDriver/src/main/scala/schema/"
+ "/Users/cale/Work/banksealer/services/ubiDriver/src/main/scala/"
+ "/Users/cale/Work/banksealer/services/bobafettApi/src/main/scala/models/"
+ "/Users/cale/Work/banksealer/services/bobafettApi/src/main/scala/data/"
+ "/Users/cale/Work/banksealer/services/project/"
+ "/Users/cale/Work/aliniq/service-panel/app/"
+ "/Users/cale/Work/aliniq/service-panel/app/controllers/"
+ "/Users/cale/Work/aliniq/service-panel/app/models/"
+ "/Users/cale/Work/aliniq/service-panel/app/views/"
+ "/Users/cale/Work/aliniq/service-panel/conf/"
+ "/Users/cale/Work/autowire/autowire/shared/src/main/scala/autowire/"
+ "/Users/cale/Work/wiro/clientAkkaHttp/src/main/scala/"
+ "/Users/cale/Work/wiro/serverAkkaHttp/src/main/scala/"
+ "/Users/cale/Work/wiro/core/src/main/scala/"
+ "/Users/cale/Work/wiro/serverAkkaHttpMacros/src/main/scala/"
+ "/Users/cale/Work/banksealer-frontend/api/src/test/scala/"
+ "/Users/cale/Work/grpco/target/scala-2.10/src_managed/main/com/example/protos/hello/"
+ "/Users/cale/Work/grpco/src/main/scala/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/data/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/src/main/scala/models/icq/enum/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/main/scala/operational-dashboard/models/icq/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/src/main/scala/models/icq/db/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/models/icq/api/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/routers/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/controllers/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/controllers/bsq/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/controllers/icq/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/routers/icq/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/routers/bsq/"
+ "/Users/cale/Work/reedom/core/reedom/"
+ "/Users/cale/Work/hailadoc/api/src/main/scala/hailadoc/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/models/shared/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/models/bsq/api/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/data/bsq/"
+ "/Users/cale/Work/alinity-pro/qia/backend/project/"
+ "/Users/cale/Work/banksealer/core/src/main/scala/"
+ "/Users/cale/Work/reedom/bot/"
+ "/Users/cale/Work/reedom/api/src/"
+ "/Users/cale/Work/leonardo/banksealer/"
+ "/Users/cale/Work/java-time-circe-codecs/javaTimeCirceCodecs/src/main/scala/"
+ "/Users/cale/Work/java-time-circe-codecs/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/main/scala/operational-dashboard/controllers/bsq/"
+ "/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/main/scala/operational-dashboard/data/bsq/"
+ "/Users/cale/Work/alinity-pro/qia/backend/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "HistogramController.scala"
+ "Boot.scala"
+ "CleaningSpec.scala"
+ "ScoredTransactionTable.scala"
+ "Apply.scala"
+ "Applicative.scala"
+ "Functor.scala"
+ "Monad.scala"
+ "Bonifici.scala"
+ "Bobafett.scala"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/cale/Work/banksealer/services/" (22809 41450 0 0) "ubiDriver/" "target/" "sibtDriver/" "sealer/" "project/" "plug/" "maintenanceUbi/" "maintenanceCore/" "maintenanceBobafett/" "core/" "build.sbt" "bobafettApi/" "api/" ".." "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/main/scala/controllers/" (22806 49875 0 0) "TimeWindowController.scala" "ScoredTransactionController.scala" "HistogramController.scala" "HealthCheckController.scala" "FraudulentTransactionController.scala" "DescriptiveStatisticsController.scala" "../" "./")
+
+ ("/Users/cale/Work/hailadoc/api/src/main/scala/hailadoc/" (22643 27866 0 0) "ValidationHelperModule.scala" "UserDataModule.scala" "UserController.scala" "tables/" "StaticContentDataModule.scala" "StaticContentController.scala" "SlickUserDataModule.scala" "SlickReportAttachmentDataModule.scala" "SlickReminderDataModule.scala" "SlickPrescriptionDataModule.scala" "SlickNotificationDataModule.scala" "SlickNoteDataModule.scala" "SlickFileAttachmentDataModule.scala" "SlickDeviceNotificationTokenDataModule.scala" "SlickDatabaseModule.scala" "SlickConsultationDataModule.scala" "SinchController.scala" "SerializerModule.scala" "S3Module.scala" "Router.scala" "ReportAttachmentDataModule.scala" "ReportAttachmentController.scala" "ReminderRouter.scala" "ReminderDataModule.scala" "ReminderController.scala" "PrismicModule.scala" "PrescriptionRouter.scala" "PrescriptionDataModule.scala" "PrescriptionController.scala" "PasswordHashModule.scala" "NotificationDataModule.scala" "NotificationController.scala" "NoteDataModule.scala" "NoteController.scala" "MultipartFormDataHelper.scala" "models/" "launchers/" "HashModule.scala" "FixtureReaderHelper.scala" "FileAttachmentRouter.scala" "FileAttachmentDataModule.scala" "FileAttachmentController.scala" "ExecutionContextModule.scala" "events/" "DocumentRenderModule.scala" "DeviceNotificationTokenTableController.scala" "DeviceNotificationTokenData.scala" "DataModule.scala" "DataActionHelperModule.scala" "ConsultationDataModule.scala" "ConsultationController.scala" "ConfigModule.scala" "BraintreeModule.scala" "AuthController.scala" "ActorSystemModule.scala" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/maintenanceBobafett/src/test/scala/" (22809 40797 0 0) "CleaningSpec.scala" ".placeholder" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/maintenanceBobafett/src/test/" (22795 1201 0 0) "scala/" "resources/" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/maintenanceBobafett/src/main/scala/" (22795 1201 0 0) "StackTraceAsString.scala" "Cleaning.scala" "Boot.scala" ".placeholder" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/maintenanceBobafett/src/main/" (22795 1201 0 0) "scala/" "resources/" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/maintenanceBobafett/src/" (22795 1201 0 0) "test/" "main/" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/maintenanceBobafett/" (22795 17547 0 0) "target/" "src/" "README.md" "project/" "deploy/" ".gitignore" "../" "./")
+
+ ("/Users/cale/Work/java-time-circe-codecs/" (22768 63502 0 0) "target/" "README.md" "project/" "LICENSE" "javaTimeCirceCodecs/" "build.sbt" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/cale/Work/java-time-circe-codecs/javaTimeCirceCodecs/src/main/scala/" (22768 63503 0 0) "TimeCirceSupport.scala" "../" "./")
+
+ ("/Users/cale/Work/reedom/api/src/" (22774 20317 0 0) "utils/" "test_api.py" "s3.py" "mail.py" "logs.pyc" "logs.py" "db.py" "core.py" "controller.py" "conf.pyc" "conf.py" "app.py" ".#controller.py" "#controller.py#" "../" "./")
+
+ ("/Users/cale/Work/reedom/bot/" (22772 55209 0 0) "src/" "requirements/" "../" "./")
+
+ ("/Users/cale/Work/wiro/core/src/main/scala/" (22808 30896 0 0) "reflect.scala" "OptionDecoder.scala" "models.scala" "macros.scala" "BooleanDecoder.scala" "annotations.scala" "../" "./")
+
+ ("/Users/cale/Work/wiro/serverAkkaHttp/src/main/scala/" (22808 32470 0 0) "RPCServer.scala" "RPCRouter.scala" "RPCController.scala" "RouterDerivation.scala" "package.scala" "FailSupport.scala" "AutowireErrorsSupport.scala" ":w" ".#RPCRouter.scala" "#RPCRouter.scala#" "../" "./")
+
+ ("/Users/cale/Work/wiro/clientAkkaHttp/src/main/scala/" (22808 30896 0 0) "RPCClient.scala" "../" "./")
+
+ ("/Users/cale/Work/aliniq/service-panel/conf/" (22809 24398 0 0) "routes" "logback.xml" "license-management-certs/" "application.conf" "../" "./")
+
+ ("/Users/cale/Work/aliniq/service-panel/app/views/" (22809 24426 0 0) "servicesStatus.scala.html" "secondaryUserConfigurator.scala.html" "odBackupConfigurator.scala.html" "maintenanceConfigurator.scala.html" "main.scala.html" "licenseManagement.scala.html" "index.scala.html" "httpsConfigurator.scala.html" "error.scala.html" "backupConfigurator.scala.html" "abbottlinkConfigurator.scala.html" "../" "./")
+
+ ("/Users/cale/Work/aliniq/service-panel/app/controllers/" (22809 24426 0 0) "UserController.scala" "SSLController.scala" "ServiceController.scala" "package.scala" "OperationalDashboardBackupController.scala" "MaintenanceService.scala" "MaintenanceController.scala" "LogController.scala" "LicenseManager.scala" "LicenseManagementController.scala" "InventorySharingBackupController.scala" "HomeController.scala" "FileHelperModule.scala" "ErrorHelperModule.scala" "ContainerManager.scala" "AbbottLinkController.scala" ".#ContainerManager.scala" "#ContainerManager.scala#" "../" "./")
+
+ ("/Users/cale/Work/aliniq/service-panel/app/" (22809 24398 0 0) "views/" "models/" "Filters.scala" "data/" "controllers/" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/project/" (22809 28259 0 0) "target/" "project/" "plugins.sbt" "Dependencies.scala" "build.properties" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/main/scala/data/" (22806 56188 0 0) "ScoredTransactionData.scala" "ScalarFunctions.scala" "package.scala" "FraudulentTransactionData.scala" "DiscretizedScoreConfigurationData.scala" "Codecs.scala" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/main/scala/models/" (22806 56272 0 0) "SuccessResponse.scala" "ServiceInfo.scala" "ScoredTransaction.scala" "HttpModels.scala" "Health.scala" "FraudulentTransaction.scala" "DiscretizedScoreConfiguration.scala" "DescriptiveStatistics.scala" "Bobafett.scala" "APIModels.scala" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/main/scala/schema/" (22809 34746 0 0) "ScoredTransactionTable.scala" "package.scala" "DiscretizedScoreConfigurationTable.scala" "../" "./")
+
+ ("/Users/" (22498 52106 0 0) "Shared/" "Guest/" "cale/" ".localized" "../" "./")
+
+ ("/Users/cale/" (22809 40604 0 0) "Work/" "words_rec.l" "words" "VirtualBox VMs/" "users.sql" "today" "tmp3.json" "tmp2.json" "tmp1.json" "tmp.json" "tmp/" "test2" "test.sql" "test.py" "test.json" "test.csv" "test.c" "test" "target/" "src/" "squillo.trace.db" "squillo.mv.db" "slices.md" "shared.thrift" "scriptone.sh" "scikit_learn_data/" "reedombot.py" "reactive-stocks/" "Public/" "plantuml.jar" "pkg/" "Pictures/" "oracleclient/" "notes.md" "Notes/" "node_modules/" "myscrape.pyc" "myscrape.py" "Music/" "Movies/" "me.org~" "me.org" "localboba/" "LICENSE" "Library/" "js/" "java/" "inter.py" "init.sql" "hello-slick-3.0/" "Google Drive/" "giornate_banksealer.txt" "generator.js" "gen-java/" "Fun/" "ENV/" "Dropbox/" "Downloads/" "Documents/" "Dockerfile" "Desktop/" "ddl.sql" "data/" "Conti/" "bobafett-web-a2239ad092bb6c1648fa724185cb1c1e6f11caa5.tar" "bobafett-web-2167488214b39cf59ef8d053a2cf0a398d380284.tar" "bobafett-perftest/" "bobafett-maintenance.zip" "bobafett-maintenance-a2239ad092bb6c1648fa724185cb1c1e6f11caa5.tar" "bobafett-api-2167488214b39cf59ef8d053a2cf0a398d380284.tar" "bobafett-2167488214b39cf59ef8d053a2cf0a398d380284.zip" "bobafett/" "blog/" "bkcup/" "bin/" "Applications/" "application.conf" "analysis/" ".zshrc" ".zshenv" ".zsh_aliases" ".zprofile" ".zpreztorc" ".zprezto/" ".zlogout" ".zlogin" ".zhistory" ".zcompdump.zwc" ".zcompdump" ".zcompcache/" ".yarn-cache/" ".yarn/" ".Xauthority" ".vscode/" ".visdom/" ".vimrc.backup" ".vimrc" ".viminfo.tmp" ".viminfo" ".vim_stuff/" ".vim_runtime/" ".vim_mru_files" ".vim/" ".Trash/" ".tmux.conf.local" ".tmux.conf" ".tmux/" ".terraform.d/" ".templateengine/" ".subversion/" ".stack/" ".ssh/" ".sqlplus_history" ".sqlite_history" ".sh_history" ".ServiceHub/" ".scala_history" ".sbt_usages" ".sbt_usage" ".sbt_errors" ".sbt/" ".rnd" ".python_history" ".ptpython/" ".psql_history" ".packer.d/" ".oracle_jre_usage/" ".nylas-mail/" ".nvm/" ".npm/" ".node_repl_history" ".node-gyp/" ".NERDTreeBookmarks" ".nbprofiler/" ".mysql_history" ".myclirc" ".mycli.log" ".mycli-history" ".metarpheus/" ".matplotlib/" ".local/" ".lesshst" ".jupyter/" ".ivy2/" ".irssi/" ".ipython/" ".IdentityService/" ".hyper_plugins/" ".hyper.js" ".hophoprc~" ".hophoprc" ".hophop_gh_token_vm" ".hophop_gh_token_qia-vm" ".hophop_gh_token_calippo" ".hophop_gh_token_aliniq" ".hophop/" ".h2.server.properties" ".gnupg/" ".gitkraken/" ".gitignore-boilerplates/" ".gitignore" ".gitconfig~" ".gitconfig" ".ghc/" ".gervill/" ".gem/" ".fpp/" ".flyrc" ".fastlane/" ".emacs~" ".emacs.d/" ".emacs.backup" ".emacs" ".elasticbeanstalk/" ".DS_Store" ".dropbox/" ".docker/" ".did_show_opt_info" ".DbSchema/" ".dbk_info" ".cups/" ".coursier/" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cfg/" ".cache/" ".cabal/" ".buildo-labonline-credentials-pass" ".buildo-credentials-pass" ".bintray/" ".bash_sessions/" ".bash_history" ".babel.json" ".aws/" ".atom/" ".android/" ".ammonite/" ".activator/" "#users.sql#" "#test2#" "#slices.md#" "#notes.md#" "#me.org#" "#inter.py#" "#ddl.sql#" "#.emacs#" "#*message*-20161121-122937#" "../" "./")
+
+ ("/Users/cale/Work/wiro/" (22808 30896 0 0) "target/" "serverRpc/" "serverAkkaHttp/" "server-akka-http/" "README.md" "project/" "macros/" "LICENSE" "examples/" "docs/" "core/" "clientAkkaHttp/" "build.sbt" ".history" ".gitignore" ".git/" ".ensime_cache/" ".drone.yml" "../" "./")
+
+ ("/Users/cale/Work/" (22807 10660 0 0) "workbench-example-app-tmp/" "workbench-example-app/" "wirotmp/" "wiro-example/" "wiro/" "wallet/" "upickle/" "terraform/" "status/" "simulacrum/" "scriptoni/" "scala/" "sbtee/" "sbt-license-report/" "sbt-buildo/" "rpc-tests/" "reedom/" "react-components/" "qia-vm/" "prisma/" "packo/" "oxway/" "old-bobafett/" "old-banksealer/" "old-alinity-pro/" "old-aliniq/" "nozzletest/" "nozzle/" "metarpheus/" "mailo/" "loggo/" "log4j2-JSONLayout-example/" "lexdoit/" "leonardo/" "jschema/" "java-time-circe-codecs/" "ipercron/" "ingredients-logging-slf4j-transport/" "ingredients/" "hophop/" "hlist-experiments/" "hailadoc/" "h2database/" "grpco/" "gdsm/" "futureScala/" "finalge-test/" "finagle/" "essentia/" "enumero/" "eff-api/" "docker-samba/" "cronish/" "contacthub-sdk-java/" "conf-http-api/" "cirrus/" "circe/" "ciao" "checklist/" "cats/" "cachetest/" "benderama/" "banksealer-tmp/" "banksealer/" "autowire/" "ams/" "aliniq/" "akka-http/" ".DS_Store" "../" "./")
+
+ ("/Users/cale/Work/banksealer/" (22809 40109 0 0) "web/" "tmp/" "services/" "secrets.yml" "scripts/" "scalastyle-config.xml" "readmes/" "README.md" "drone-secrets.yml" "bobafett-api-documentation/" ".hophoprc" ".gitignore" ".gitattributes" ".git-crypt/" ".git/" ".drone.yml.orig" ".drone.yml" ".drone.sec.backup" ".drone.sec" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/test/scala/" (22809 30729 0 0) "TimeWindowSpec.scala" "ScoredTransactionDataSpec.scala" "ScoreDiscretizationModuleSpec.scala" "PercentageSpec.scala" "package.scala" "Mocks.scala" "FraudulentTransactionDataSpec.scala" "DiscretizedScoreConfigurationDataSpec.scala" "DbUtils.scala" "AppSpec.scala" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/test/resources/" (22795 1201 0 0) "reference.conf" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/test/" (22795 1201 0 0) "scala/" "resources/" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/misc/" (22809 34718 0 0) "parserUBI/" "init.sql" "ddl.sql" "data/" "../" "./")
+
+ ("/Users/cale/Work/cats/core/src/main/scala/cats/" (22807 5324 0 0) "Unapply.scala" "Trivial.scala" "TraverseFilter.scala" "Traverse.scala" "TransLift.scala" "syntax/" "Show.scala" "SemigroupK.scala" "Reducible.scala" "package.scala" "NotNull.scala" "MonoidK.scala" "MonadWriter.scala" "MonadState.scala" "MonadReader.scala" "MonadFilter.scala" "MonadError.scala" "MonadCombine.scala" "Monad.scala" "InvariantMonoidal.scala" "instances/" "InjectK.scala" "implicits/" "FunctorFilter.scala" "Functor.scala" "functor/" "Foldable.scala" "FlatMap.scala" "evidence/" "Eval.scala" "data/" "ContravariantCartesian.scala" "Composed.scala" "Comonad.scala" "CoflatMap.scala" "Cartesian.scala" "Bitraverse.scala" "Bimonad.scala" "Bifoldable.scala" "arrow/" "Apply.scala" "ApplicativeError.scala" "Applicative.scala" "Alternative.scala" "../" "./")
+
+ ("/Users/cale/Work/cats/core/src/main/scala/cats/instances/" (22807 4390 0 0) "vector.scala" "uuid.scala" "tuple.scala" "try.scala" "symbol.scala" "string.scala" "stream.scala" "set.scala" "package.scala" "option.scala" "map.scala" "list.scala" "future.scala" "function.scala" "either.scala" "bitSet.scala" "bigInt.scala" "bigDecimal.scala" "anyval.scala" "all.scala" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/ubiDriver/src/main/scala/schema/" (22806 53215 0 0) "Scores.scala" "Ricariche.scala" "Login.scala" "IWBankRicariche.scala" "IWBankLogin.scala" "IWBankBonifici.scala" "FeaturesMappers.scala" "Bonifici.scala" "Bobafett.scala" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/ubiDriver/src/main/scala/" (22806 53079 0 0) "ValidationControllerModule.scala" "UBIRawDriverDataModule.scala" "UBIPluggableFeaturesModule.scala" "UBIIndexParser.scala" "UBIDriverDataModule.scala" "TxnsIdConverter.scala" "TxnProcessorModule.scala" "TransactionValidation.scala" "SlickModule.scala" "schema/" "package.scala" "models/" "DriverModule.scala" "DriverDataModule.scala" "BobafettModelsConverter.scala" "BobafettDriverDataModule.scala" "ASNMapper.scala" "../" "./")
+
+ ("/Users/cale/Work/aliniq/service-panel/app/models/" (22804 23030 0 0) "Service.scala" "package.scala" "MaintenanceStatus.scala" "LicenseConfig.scala" "AbbottLinkConfig.scala" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/main/scala/" (22806 49875 0 0) "StringSerializationModule.scala" "ScoreDiscretizationModule.scala" "schema-core/" "schema/" "PercentagesHelper.scala" "models-core/" "models/" "LoggingBackend.scala" "JsonSerializerModule.scala" "Errors.scala" "data-core/" "data/" "CustomSchemas.scala" "controllers/" "Boot.scala" "AmountHelpers.scala" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/main/" (22795 1201 0 0) "scala/" "resources/" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/src/" (22795 1201 0 0) "test/" "main/" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/bobafettApi/" (22795 14475 0 0) "target/" "src/" "README.md" "project/" "misc/" "deploy/" ".gitignore" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/ubiDriver/src/main/scala/models/" (22806 50325 0 0) "Txn.scala" "TransactionSchema.scala" "Score.scala" "Scope.scala" "Bobafett.scala" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/ubiDriver/src/main/" (22795 1201 0 0) "scala/" "resources/" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/ubiDriver/src/" (22795 1201 0 0) "test/" "main/" "../" "./")
+
+ ("/Users/cale/Work/banksealer/services/ubiDriver/" (22795 15143 0 0) "target/" "src/" "macro/" "lib/" ".gitkeep" "../" "./")
+
+ ("/Users/cale/Work/leonardo/banksealer/" (22787 21594 0 0) "misc/" "banksealer.puml" "banksealer.md" "[banksealer] components.svg" ".DS_Store" "../" "./")
+
+ ("/Users/cale/Work/aliniq/service-panel/" (22801 56831 0 0) "test/" "target/" "README.md" "public/" "project/" "logs/" "LICENSES.md" "LICENSE" "libexec/" "conf/" "ci/" "build.sbt" "bin/" "app/" ".sbtserver/" ".gitignore" "../" "./")
+
+ ("/Users/cale/Work/autowire/autowire/shared/src/main/scala/autowire/" (22615 34821 0 0) "package.scala" "Macros.scala" "Internal.scala" "Core.scala" "ClientServer.scala" "Bounds.scala" "../" "./")
+
+ ("/Users/cale/Work/wiro/clientAkkaHttp/src/main/" (22791 42691 0 0) "scala/" "../" "./")
+
+ ("/Users/cale/Work/wiro/clientAkkaHttp/src/" (22791 42691 0 0) "main/" "../" "./")
+
+ ("/Users/cale/Work/wiro/clientAkkaHttp/" (22791 42691 0 0) "target/" "src/" "../" "./")
+
+ ("/Users/cale/Work/wiro/serverAkkaHttpMacros/src/main/scala/" (22791 41289 0 0) "RouterDerivation.scala~" "RouterDerivation.scala" "../" "./")
+
+ ("/Users/cale/Work/wiro/core/src/main/" (22630 20071 0 0) "scala/" "../" "./")
+
+ ("/Users/cale/Work/wiro/core/src/" (22630 20071 0 0) "main/" "../" "./")
+
+ ("/Users/cale/Work/wiro/core/" (22791 20099 0 0) "target/" "src/" "../" "./")
+
+ ("/Users/cale/Work/wiro/serverAkkaHttp/src/main/" (22682 55134 0 0) "scala/" "../" "./")
+
+ ("/Users/cale/Work/wiro/serverAkkaHttp/src/test/" (22693 58391 0 0) "scala/" "../" "./")
+
+ ("/Users/cale/Work/wiro/serverAkkaHttp/src/" (22693 58391 0 0) "test/" "main/" "../" "./")
+
+ ("/Users/cale/Work/wiro/serverAkkaHttp/" (22791 39700 0 0) "target/" "src/" "../" "./")
+
+ ("/Users/cale/Work/wiro/serverAkkaHttpMacros/src/main/" (22791 39687 0 0) "scala/" "../" "./")
+
+ ("/Users/cale/Work/wiro/serverAkkaHttpMacros/src/" (22791 39736 0 0) "main/" "../" "./")
+
+ ("/Users/cale/Work/wiro/serverAkkaHttpMacros/" (22791 39751 0 0) "target/" "src/" "../" "./")
+
+ ("/Users/cale/Work/banksealer-frontend/api/src/test/scala/" (22786 4659 0 0) "TimeWindowSpec.scala" "ScoredTransactionDataSpec.scala" "ScoreDiscretizationModuleSpec.scala" "PercentageSpec.scala" "package.scala" "Mocks.scala" "FraudulentTransactionDataSpec.scala" "DiscretizedScoreConfigurationDataSpec.scala" "DbUtils.scala" "AppSpec.scala" "../" "./")
+
+ ("/Users/cale/Work/banksealer-frontend/api/src/test/" (22717 39873 0 0) "scala/" "resources/" "../" "./")
+
+ ("/Users/cale/Work/banksealer-frontend/api/" (22786 5217 0 0) "target/" "src/" "README.md" "project/" "misc/" "deploy/" "build.sbt" ".history" ".gitignore" ".ensime_cache/" ".ensime" "../" "./")
+
+ ("/Users/cale/Fun/sorting/src/main/scala/" (22731 7166 0 0) "selectionSort.scala" "quickSort.scala" "mergeSort.scala" "insertionSort.scala" "bubbleSort.scala" "../" "./")
+
+ ("/Users/cale/Work/wiro/serverRpc/src/main/scala/" (22731 48011 0 0) "annotations.scala" "../" "./")
+
+ ("/Users/cale/Work/wiro/clientAkkaRpc/src/main/scala/" (22733 2957 0 0) "RPCClient.scala" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/qiaShared/src/main/scala/" (22781 50167 0 0) "../" "./")
+
+ ("/Users/cale/Work/banksealer-frontend/api/src/main/scala/" (22785 64849 0 0) "StringSerializationModule.scala" "ScoreDiscretizationModule.scala" "schema/" "PercentagesHelper.scala" "models/" "LoggingBackend.scala" "JsonSerializerModule.scala" "Errors.scala" "data/" "CustomSchemas.scala" "controllers/" "Boot.scala" "AmountHelpers.scala" "../" "./")
+
+ ("/Users/cale/Work/banksealer-frontend/api/src/main/resources/" (22785 55146 0 0) "reference.conf" "application.conf" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/" (22781 52980 0 0) "target/" "src/" "qiaShared/" "perfTest/" "operationalDashboardWebApi/" "operationalDashboardShared/" "operationalDashboardInstrumentApi/" "kvm/" "inventorySharingMaintenance/" "inventorySharing/" ".ensime_cache/" "../" "./")
+
+ ("/Users/cale/Work/reedom/core/reedom/" (22775 59316 0 0) "test.py" "test/" "synth.py" "sounds/" "smooth.py" "record.py" "play_sheet.py" "percussions.py" "old/" "notebook/" "music_knowledge.py" "models.py" "main.py" "helper.py" "features.py" "core.py" "conf.yaml" "__init__.py" "../" "./")
+
+ ("/Users/cale/Work/grpco/target/scala-2.10/src_managed/main/com/example/protos/hello/" (22786 65 0 0) "HelloRequest.scala" "HelloReply.scala" "HelloProto.scala" "GreeterGrpc.scala" "../" "./")
+
+ ("/Users/cale/Work/grpco/" (22786 63 0 0) "target/" "src/" "project/" "build.sbt" "../" "./")
+
+ ("/Users/cale/Work/grpco/src/main/scala/" (22786 1498 0 0) "Boot.scala~" "Boot.scala" "../" "./")
+
+ ("/Users/cale/Work/grpco/target/scala-2.10/src_managed/main/com/example/protos/" (22785 64002 0 0) "hello/" "../" "./")
+
+ ("/Users/cale/Work/grpco/target/scala-2.10/src_managed/main/com/example/" (22785 64002 0 0) "protos/" "../" "./")
+
+ ("/Users/cale/Work/grpco/target/scala-2.10/src_managed/main/com/" (22785 64002 0 0) "example/" "../" "./")
+
+ ("/Users/cale/Work/grpco/target/scala-2.10/src_managed/main/" (22785 64002 0 0) "com/" "../" "./")
+
+ ("/Users/cale/Work/grpco/target/scala-2.10/src_managed/" (22785 64002 0 0) "main/" "../" "./")
+
+ ("/Users/cale/Work/grpco/target/scala-2.10/" (22785 64600 0 0) "src_managed/" "classes/" "../" "./")
+
+ ("/Users/cale/Work/grpco/target/" (22785 63873 0 0) "streams/" "scala-2.10/" "protobuf_external/" ".history" "../" "./")
+
+ ("/Users/cale/Work/grpco/src/" (22785 63914 0 0) "main/" "../" "./")
+
+ ("/Users/cale/Work/grpco/src/main/" (22785 63987 0 0) "scala/" "protobuf/" "../" "./")
+
+ ("/Users/cale/Work/grpco/src/main/protobuf/" (22785 63999 0 0) "hello.proto~" "hello.proto" "../" "./")
+
+ ("/Users/cale/Fun/udash-core/" (22780 45925 0 0) "rpc/" "rest/" "README.md" "project/" "LICENSE" "i18n/" "core/" "charts/" "build.sbt" "bootstrap/" ".travis.yml" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/models/user/" (22739 58165 0 0) "DBUser.scala" "APIUser.scala" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/data/" (22778 12336 0 0) "WorkcellGroupAssociationData.scala" "user/" "SlickTimeSupport.scala" "icq/" "GroupBySupport.scala" "converters/" "configuration/" "bsq/" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/models/" (22778 14372 0 0) "WorkcellGroupIdFilter.scala" "user/" "shared/" "OrderingModule.scala" "NotificationsKindEnum.scala" "NotificationsConfiguration.scala" "icq/" "bsq/" "AggregationModule.scala" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/src/main/scala/operational-dashboard/" (22778 12336 0 0) "SafeValidationModule.scala" "routers/" "models/" "launchers/" "JsonSerializerModule.scala" "data/" "controllers/" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/src/main/scala/models/" (22778 12336 0 0) "user/" "SuccessResponse.scala" "package.scala" "InstrumentType.scala" "icq/" "DBWorkcellGroupAssociation.scala" "DBWorkcellGroup.scala" "bsq/" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardShared/" (22777 59308 0 0) "target/" "src/" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardInstrumentApi/" (22777 59308 0 0) "target/" "swagger_specification_operational-dashboard.yml" "src/" "qia-operational-dashboard-icq-models.json" "qia-operational-dashboard-bsq-models.json" "deploy/" "ci/" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/" (22777 59310 0 0) "target/" "src/" "deploy/" "ci/" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/" (22778 13355 0 0) "StringSerializerModule.scala" "routers/" "models/" "MappableModule.scala" "launchers/" "kvm/" "JsonSerializerModule.scala" "ErrorModule.scala" "data/" "controllers/" "AuthenticationModule.scala" "APIJsonEnvelopeMarshallingSupport.scala" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/models/icq/api/" (22778 12336 0 0) "APIICQWorkcell.scala" "APIICQTimespanWithReference.scala" "APIICQSupply.scala" "APIICQSCM.scala" "APIICQRSM.scala" "APIICQReagent.scala" "APIICQQCAnalysis.scala" "APIICQProcessingModule.scala" "APIICQMaintenance.scala" "APIICQCalQCMaterial.scala" "APIICQCalibration.scala" "APIICQAlert.scala" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/routers/" (22778 8658 0 0) "WorkcellGroupRouter.scala" "WorkcellGroupAssociationRouter.scala" "UserRouter.scala" "UserConfigurationRouter.scala" "Router.scala" "PMDShiftRouter.scala" "NotificationsConfigurationRouter.scala" "KVMRouter.scala" "KVMConfigurationRouter.scala" "icq/" "GlobalConfigurationRouter.scala" "bsq/" "AlertRouter.scala" "../" "./")
+
+ ("/Users/cale/Work/alinity-pro/qia/backend/operationalDashboardWebApi/src/main/scala/operational-dashboard/controllers/" (22777 59171 0 0) "WorkcellGroupIdFilterHelper.scala" "WorkcellGroupController.scala" "WorkcellGroupAssociationController.scala" "WorkcellGroupACLHelper.scala" "WorkcellExpirationSupport.scala" "UserController.scala" "UserConfigurationController.scala" "PMDShiftSupport.scala" "PMDShiftController.scala" "package.scala" "NotificationsConfigurationController.scala~" "NotificationsConfigurationController.scala" "KVMController.scala" "KVMConfigurationController.scala" "icq/" "GlobalConfigurationController.scala" "DataLimitSupport.scala" "bsq/" "AlertsController.scala" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
