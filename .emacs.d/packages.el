@@ -13,6 +13,22 @@
   :config
   (zoom-mode t))
 
+(use-package go-mode
+  :mode "\\.go\\'"
+  :config
+  (progn
+    (setq-default tab-width 2)
+    (setq-default indent-tabs-mode nil)
+    (add-hook 'go-mode-hook (lambda () (setq tab-width 2)))
+    ;; tab-width & indent-tabs-mode are both buffer-local so need setq-default
+    )
+  :init
+  (progn
+    (setq-default tab-width 2)
+    (setq-default indent-tabs-mode nil)
+    )
+  )
+
 ;; (use-package ac-helm
 ;;   :config
 ;;   (global-set-key (kbd "C-:") 'ac-complete-with-helm)

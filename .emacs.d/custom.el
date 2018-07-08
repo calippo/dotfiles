@@ -12,6 +12,9 @@
 (setq c-basic-indent 2)
 (setq tab-width 2)
 (setq indent-tabs-mode nil)
+(setq js-indent-level 2)
+(setq web-mode-code-indent-offset 2)
+(setq typescript-indent-level 2)
 
 (setq
  inhibit-startup-screen t
@@ -30,6 +33,29 @@
 
 (setq emerge-diff-options "--ignore-all-space")
 
+
+;; tide setup start
+(defun setup-tide-mode ()
+  (interactive)
+  (tide-setup)
+  (flycheck-mode +1)
+  (setq flycheck-check-syntax-automatically '(save mode-enabled))
+  (eldoc-mode +1)
+  (tide-hl-identifier-mode +1)
+  ;; company is an optional dependency. You have to
+  ;; install it separately via package-install
+  ;; `M-x package-install [ret] company`
+  (company-mode +1))
+
+;; aligns annotation to the right hand side
+(setq company-tooltip-align-annotations t)
+
+;; formats the buffer before saving
+(add-hook 'before-save-hook 'tide-format-before-save)
+
+(add-hook 'typescript-mode-hook #'setup-tide-mode)
+;; tide setup end
+
 (setq backup-directory-alist '(("." . "~/.emacs.d/backup"))
       backup-by-copying t    ; Don't delink hardlinks
       version-control t      ; Use version numbers on backups
@@ -43,9 +69,9 @@
 (setq plantuml-jar-path "~/.emacs.d/plantuml.jar")
 (defvar plantuml-output-type "svg")
 
-(with-eval-after-load 'flycheck
-  (require 'flycheck-plantuml)
-  (flycheck-plantuml-setup))
+;; (with-eval-after-load 'flycheck
+;;   (require 'flycheck-plantuml)
+;;   (flycheck-plantuml-setup))
 
 (defun kill-other-buffers ()
   "Kill all other buffers."
@@ -61,4 +87,4 @@
   (save-some-buffers)
   (kill-emacs))
 
-(setq mac-command-modifier 'control)
+ (setq mac-command-modifier 'super)
