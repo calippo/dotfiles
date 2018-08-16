@@ -168,5 +168,3 @@ export PATH="$HOME/.local/bin/devenv:$PATH"
 
 export SBT_OPTS="-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=2G -Xss2M  -Duser.timezone=GMT"
 MYIP="$(dig +short myip.opendns.com @resolver1.opendns.com)"
-
-source $(which assume-role)
