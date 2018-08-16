@@ -88,3 +88,6 @@
   (kill-emacs))
 
  (setq mac-command-modifier 'super)
+
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:complete-on-dot t)  

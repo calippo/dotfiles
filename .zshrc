@@ -132,6 +132,9 @@ function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 #Prevent closing the shell pressing C-d by mistake
 set -o ignoreeof
 
+#Set no clobber
+set -o noclobber
+
 #Security first
 export DRONE_SERVER=http://drone.our.buildo.io
 export DRONE_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoiY2FsaXBwbyIsInR5cGUiOiJ1c2VyIn0.9KVhjSXEPDrt1TL5_BGlPhGXckGi67U4dJWV4Hy_upA
@@ -161,5 +164,9 @@ export PATH="/usr/local/share/emacs/site-lisp/cask:$PATH"
 export PATH="/Applications/VMware Fusion.app/Contents/Library/VMware OVF Tool:$PATH"
 export PATH="/Users/cale/Library/Python/3.6/bin:$PATH"
 export PATH="$HOME/Library/Haskell/bin:$PATH"
+export PATH="$HOME/.local/bin/devenv:$PATH"
 
 export SBT_OPTS="-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=2G -Xss2M  -Duser.timezone=GMT"
+MYIP="$(dig +short myip.opendns.com @resolver1.opendns.com)"
+
+source $(which assume-role)

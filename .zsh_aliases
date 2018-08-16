@@ -9,3 +9,4 @@ alias ec="emacsclient -t"
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias sbt='f() { sbt "$@" |tee -a ~/.sbt_usage.2; };f'
 alias vim=nvim
+alias did="vim +'normal Go' +'r!date' ~/did.txt"
