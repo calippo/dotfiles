@@ -1,5 +1,12 @@
 (require 'package)
+
+(setq package-enable-at-startup nil)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
+
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
 
 (load-file "~/.emacs.d/archives.el")
 (load-file "~/.emacs.d/packages.el")
@@ -29,7 +36,7 @@
  '(highlight-tail-colors (quote (("#F8BBD0" . 0) ("#FAFAFA" . 100))))
  '(package-selected-packages
    (quote
-    (swagger-to-org terraform-mode docker-compose-mode dockerfile-mode tide prettier-js rainbow-identifiers typoscript-mode nodejs-repl markdown-mode neotree typescript-mode mouse-slider-mode ac-helm focus dashboard sublimity zoom circadian nord-theme apropospriate-theme nyx-theme hemera-theme skewer-mode nyan-mode gradle-mode wakatime-mode helm-projectile find-file-in-project darkroom helm-git-grep web-mode rjsx-mode jsx-mode react-snippets smart-mode-line-powerline-theme powerline-evil hound deferred imenu-anywhere haskell-mode haskell-emacs auto-complete ## flycheck-plantuml plantuml-mode js2-mode popup-imenu scala-mode hydra smart-mode-line yaml-mode use-package solarized-theme seoul256-theme reykjavik-theme projectile powerline php-mode multiple-cursors markdown-preview-mode key-chord iedit hydandata-light-theme helm go-mode evil-visual-mark-mode evil-magit color-theme avk-emacs-themes all-the-icons)))
+    (deferred swagger-to-org terraform-mode docker-compose-mode dockerfile-mode tide prettier-js rainbow-identifiers typoscript-mode nodejs-repl markdown-mode neotree typescript-mode mouse-slider-mode ac-helm focus dashboard sublimity zoom circadian nord-theme apropospriate-theme nyx-theme hemera-theme skewer-mode nyan-mode gradle-mode wakatime-mode helm-projectile find-file-in-project darkroom helm-git-grep web-mode rjsx-mode jsx-mode react-snippets smart-mode-line-powerline-theme powerline-evil hound deferred imenu-anywhere haskell-mode haskell-emacs auto-complete ## flycheck-plantuml plantuml-mode js2-mode popup-imenu scala-mode hydra smart-mode-line yaml-mode use-package solarized-theme seoul256-theme reykjavik-theme projectile powerline php-mode multiple-cursors markdown-preview-mode key-chord iedit hydandata-light-theme helm go-mode evil-visual-mark-mode evil-magit color-theme avk-emacs-themes all-the-icons)))
  '(pos-tip-background-color "#ffffff")
  '(pos-tip-foreground-color "#78909C")
  '(tabbar-background-color "#ffffff"))
