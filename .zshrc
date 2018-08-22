@@ -71,6 +71,7 @@ plugins=(
   docker
   node
   tmux
+  zsh-iterm-touchbar
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -166,5 +167,5 @@ export PATH="/Users/cale/Library/Python/3.6/bin:$PATH"
 export PATH="$HOME/Library/Haskell/bin:$PATH"
 export PATH="$HOME/.local/bin/devenv:$PATH"
 
-export SBT_OPTS="-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=2G -Xss2M  -Duser.timezone=GMT"
+export SBT_OPTS="-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=2G -Xss2M -XX:MaxMetaspaceSize=4G -XX:MetaspaceSize=4G"
 MYIP="$(dig +short myip.opendns.com @resolver1.opendns.com)"
