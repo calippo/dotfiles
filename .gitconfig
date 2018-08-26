@@ -1,0 +1,61 @@
+[alias]
+  lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)%C(bold yellow)%D' --all
+  lg = !"git lg1"
+  lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+  ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+  ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+  lc = log --pretty=short --no-merges --decorate master..
+  last = log --numstat -1
+  file = "!git ls-files | grep -i"
+  commit = commit --verbose
+  amend = commit --amend
+  save = !git add -A && git commit -m 'WIP'
+  wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+	it = !git init && git commit -m “root” --allow-empty
+	stsh = stash --keep-index
+	staash = stash --include-untracked
+	staaash = stash --all
+	shorty = status --short --branch
+  s = shorty
+	graph = log --graph --abbrev-commit --decorate --all --format=format:\"%C(bold blue)%h%C(reset) - %C(bold cyan)%C(dim white)%an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)\"
+  master = graph --no-merges master..
+  standup = !git log \
+              --author='Claudio Caletti' \
+              --since='9am yesterday' \
+              --all \
+              --format=%s
+  lazy-standup = !git standup | say
+  which = !git branch | grep -i
+  lucky = !sh -c 'git checkout $(git which $1 -m1)' -
+  feature = !hophop gh feature
+  current = !git branch | grep '*' | cut -d ' ' -f2
+  pr = !hophop gh pr
+  reword = "!f() { branch=`git symbolic-ref --short HEAD`; git checkout $1; git commit --amend; git checkout $branch; }; f"
+  loc = diff --stat master HEAD
+
+[user]
+  name = Claudio Caletti
+  email = claudio@buildo.io
+
+[merge]
+  tool = vimdiff
+
+[push]
+  default = simple
+
+# [diff]
+#   external = icdiff
+
+[mergetool "emerge"]
+  path = /usr/bin/emerge-for-git
+
+[core]
+  excludesfile = /Users/cale/.gitignore
+
+[filter "lfs"]
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+  clean = git-lfs clean -- %f
+[icdiff]
+	options = --highlight --line-numbers
