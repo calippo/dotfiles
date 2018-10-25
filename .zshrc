@@ -163,9 +163,20 @@ eval "$(jenv init -)"
 
 export PATH="/usr/local/share/emacs/site-lisp/cask:$PATH"
 export PATH="/Applications/VMware Fusion.app/Contents/Library/VMware OVF Tool:$PATH"
-export PATH="/Users/cale/Library/Python/3.6/bin:$PATH"
 export PATH="$HOME/Library/Haskell/bin:$PATH"
 export PATH="$HOME/.local/bin/devenv:$PATH"
 
 export SBT_OPTS="-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=2G -Xss2M -XX:MaxMetaspaceSize=4G -XX:MetaspaceSize=4G"
 MYIP="$(dig +short myip.opendns.com @resolver1.opendns.com)"
+
+export PATH="/$HOME/Library/Python/3.6/bin:$PATH"
+export PATH="/$HOME/Library/Python/3.7/bin:$PATH"
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+#bloop
+autoload -U compinit
+fpath=($HOME/.bloop/zsh $fpath)
+compinit
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
