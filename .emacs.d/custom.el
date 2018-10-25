@@ -5,7 +5,7 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (global-linum-mode t)
-
+(prettify-symbol-mode t)
 (electric-indent-mode 0)
 
 ;; to setup tabs
