@@ -7,7 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="af-magic"
+ZSH_THEME="bureau"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -104,6 +104,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+# NODE version
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"
+
+nvm use --delete-prefix v8.10.0 --silent
 
 if [ -f ~/.zsh_aliases ]; then
   . ~/.zsh_aliases
@@ -119,12 +126,6 @@ export EDITOR="$VISUAL"
 export ALTERNATE_EDITOR=""
 export VISUAL="emacsclient -t"
 export EDITOR="emacsclient -t"
-
-# NODE version
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
-
-nvm use v8.9.4 > /dev/null
 
 export PATH="$HOME/bin:$PATH"
 
@@ -156,10 +157,13 @@ PATH=$(brew --prefix openssl)/bin:$PATH
 export PATH="/usr/local/opt/libressl/bin:$PATH"
 export PATH="/Users/cale/.cargo/bin:$PATH"
 export PATH="/Users/cale/bin:$PATH"
+export PATH="/Users/cale/.local/bin:$PATH"
 
 #jenv
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+#export JAVA_HOME="$HOME/.jenv/versions/`jenv version-name`"
+#alias jenv_set_java_home='export JAVA_HOME="$HOME/.jenv/versions/`jenv version-name`"'
 
 export PATH="/usr/local/share/emacs/site-lisp/cask:$PATH"
 export PATH="/Applications/VMware Fusion.app/Contents/Library/VMware OVF Tool:$PATH"
@@ -180,3 +184,29 @@ fpath=($HOME/.bloop/zsh $fpath)
 compinit
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+
+#airdump
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PATH="/Users/cale/.gem/ruby/2.3.0/bin:$PATH"
+
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
+function alinityproenv-local-api() { cd qia/backend && sbt operationalDashboardWebApi/assembly && cd ../../ && COMMIT=$(git rev-parse $1) LOCAL_ALIAS=localhost docker-compose -f ../qia-vm/builder/docker-compose.yml -f ../qia-vm/builder/env-overrides/local.yml -f ../qia-vm/builder/env-overrides/local-api.yml up --force-recreate -d }
+
+
+
+# added by pipsi (https://github.com/mitsuhiko/pipsi)
+export PATH="/Users/cale/.local/bin:$PATH"
+
+# added by pipsi (https://github.com/mitsuhiko/pipsi)
+export PATH="/Users/cale/.local/bin:$PATH"
+
+# added by pipsi (https://github.com/mitsuhiko/pipsi)
+export PATH="/Users/cale/.local/bin:$PATH"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="/usr/local/opt/terraform@0.11/bin:$PATH"
+
+#pyenv
+eval "$(pyenv init -)"

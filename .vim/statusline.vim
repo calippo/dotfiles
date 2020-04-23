@@ -1,5 +1,9 @@
 set laststatus=2
 
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
+      \ 'colorscheme': 'onedark',
+      \ 'active': {
+      \   'right': [ [ 'lineinfo' ],
+      \              [ 'filetype' ] ]
+      \ },
       \ }

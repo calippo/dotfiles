@@ -5,7 +5,7 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (global-linum-mode t)
-(prettify-symbol-mode t)
+(global-prettify-symbols-mode +1)
 (electric-indent-mode 0)
 
 ;; to setup tabs
@@ -33,6 +33,14 @@
 
 (setq emerge-diff-options "--ignore-all-space")
 
+;; metals
+
+;; Add melpa to your packages repositories
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+
+;; Enable defer and ensure by default for use-package
+(setq use-package-always-defer t
+      use-package-always-ensure t)
 
 ;; tide setup start
 (defun setup-tide-mode ()

@@ -30,7 +30,7 @@
   lucky = !sh -c 'git checkout $(git which $1 -m1)' -
   feature = !hophop gh feature
   current = !git branch | grep '*' | cut -d ' ' -f2
-  pr = !hophop gh pr
+  bpr = !hophop gh pr
   reword = "!f() { branch=`git symbolic-ref --short HEAD`; git checkout $1; git commit --amend; git checkout $branch; }; f"
   loc = diff --stat master HEAD
   stats = !git-quick-stats
@@ -40,24 +40,46 @@
   email = claudio@buildo.io
 
 [merge]
-  tool = vimdiff
+  tool = vscode
+
+[code]
+  editor = code --wait
 
 [push]
   default = simple
 
-# [diff]
-#   external = icdiff
+[diff]
+ tool = vscode
+
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
 
 [mergetool "emerge"]
   path = /usr/bin/emerge-for-git
 
 [core]
   excludesfile = /Users/cale/.gitignore
+	pager = diff-so-fancy | less --tabs=4 -RFX
 
 [filter "lfs"]
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
   required = true
   clean = git-lfs clean -- %f
-[icdiff]
-	options = --highlight --line-numbers
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse

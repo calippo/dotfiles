@@ -34,9 +34,11 @@
     ("#F57F17" "#66BB6A" "#0097A7" "#42A5F5" "#7E57C2" "#D84315")))
  '(highlight-symbol-foreground-color "#546E7A")
  '(highlight-tail-colors (quote (("#F8BBD0" . 0) ("#FAFAFA" . 100))))
+ '(lsp-project-whitelist nil)
+ '(lsp-ui-doc-border "yellow")
  '(package-selected-packages
    (quote
-    (company-coq proof-general pacmacs hcl-mode deferred swagger-to-org terraform-mode docker-compose-mode dockerfile-mode tide prettier-js rainbow-identifiers typoscript-mode nodejs-repl markdown-mode neotree typescript-mode mouse-slider-mode ac-helm focus dashboard sublimity zoom circadian nord-theme apropospriate-theme nyx-theme hemera-theme skewer-mode nyan-mode gradle-mode wakatime-mode helm-projectile find-file-in-project darkroom helm-git-grep web-mode rjsx-mode jsx-mode react-snippets smart-mode-line-powerline-theme powerline-evil hound deferred imenu-anywhere haskell-mode haskell-emacs auto-complete ## flycheck-plantuml plantuml-mode js2-mode popup-imenu scala-mode hydra smart-mode-line yaml-mode use-package solarized-theme seoul256-theme reykjavik-theme projectile powerline php-mode multiple-cursors markdown-preview-mode key-chord iedit hydandata-light-theme helm go-mode evil-visual-mark-mode evil-magit color-theme avk-emacs-themes all-the-icons)))
+    (snippet yasnippet-lean yasnippet-classic-snippets yasnippet-snippets lsp-ui lsp-mode company-lsp eglot flycheck tern thrift scala-mode pacmacs hcl-mode deferred swagger-to-org terraform-mode docker-compose-mode dockerfile-mode tide prettier-js rainbow-identifiers typoscript-mode nodejs-repl markdown-mode neotree typescript-mode mouse-slider-mode ac-helm focus dashboard sublimity zoom circadian nord-theme apropospriate-theme nyx-theme hemera-theme skewer-mode nyan-mode gradle-mode wakatime-mode helm-projectile find-file-in-project darkroom helm-git-grep web-mode rjsx-mode jsx-mode react-snippets smart-mode-line-powerline-theme powerline-evil hound deferred imenu-anywhere haskell-mode haskell-emacs auto-complete ## flycheck-plantuml plantuml-mode js2-mode popup-imenu hydra smart-mode-line yaml-mode use-package solarized-theme seoul256-theme reykjavik-theme projectile powerline php-mode multiple-cursors markdown-preview-mode key-chord iedit hydandata-light-theme helm go-mode evil-visual-mark-mode evil-magit color-theme avk-emacs-themes all-the-icons)))
  '(pos-tip-background-color "#ffffff")
  '(pos-tip-foreground-color "#78909C")
  '(tabbar-background-color "#ffffff"))
@@ -45,5 +47,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(company-tooltip ((t (:foreground "blue"))))
+ '(lsp-ui-doc-background ((t nil)))
+ '(popup-summary-face ((t (:inherit popup-face :foreground "blue"))))
+ '(popup-tip-face ((t (:background "khaki1" :foreground "blue")))))
 (put 'dired-find-alternate-file 'disabled nil)
+
+;; metals doesn't start otherwise
+(add-to-list 'exec-path "/usr/local/bin" t)

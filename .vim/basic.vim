@@ -1,6 +1,7 @@
 set history=700
 
-set background=dark
+"set background=dark
+"
 
 set autoread
 set ruler
@@ -26,8 +27,8 @@ set number
 
 set fillchars+=vert:\ 
 
-syntax on
+colorscheme onedark
 
-colorscheme lapis256
+syntax on
 
 nmap <F8> :TagbarToggle<CR>

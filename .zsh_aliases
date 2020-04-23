@@ -10,3 +10,7 @@ alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias sbt='f() { sbt "$@" |tee -a ~/.sbt_usage.2; };f'
 alias vim=nvim
 alias did="vim +'normal Go' +'r!date' ~/did.txt"
+alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport'
+alias kali='docker run -ti kalilinux/kali-linux-docker /bin/bash'
+alias ping='prettyping --nolegend'
+alias diff='colordiff'
